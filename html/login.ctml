@@ -1,0 +1,14 @@
+﻿<br><br><br><br>
+<div id="for" style="display: block; margin: 0 auto; text-align: center;background-color:rgba(200, 200, 200, 0.5); opacity: 0.4; border: 0.5px solid gray; border-radius: 25px; height: 500px; width: 450px; display: flex; align-items: center; justify-content: center;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1>Login</h1>
+        <br>
+        <form id="form" method="post" asp-controller="Login" asp-action="Login">
+            <input id="type" value="login">
+            <input id="usw" name="usw" placeholder="UserName" type="text">
+            <br><input id="psw" name="psw" placeholder="PassWord" type="password">
+            <br><input id="mail" placeholder="E-Mail" type="text">
+            <br><button id="sub" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
