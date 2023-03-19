@@ -1,0 +1,39 @@
+﻿.cfg-div {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(180,180,180,0.8);
+    border: 0px solid #ffffff73;
+    border-radius: 40px;
+    transition: background-color 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    transition: box-shadow 0.5s;
+    float: left; /*让div浮动到左边*/
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.cfg-div:hover {
+    background-color: rgba(170,170,170,0.8);
+    ;
+    box-shadow: 0 0 10px rgba(255,255,255,1);
+}
+
+.cfg-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.cfg-text {
+    text-align: center;
+}
+
+.cfg-click {
+    text-decoration: none;
+    text-emphasis-color: rgb(203, 203, 203);
+}
+
+a {
+    color: #005085;
+    cursor: pointer;
+}
